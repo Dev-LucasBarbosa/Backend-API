@@ -59,4 +59,6 @@ engine = create_engine("mssql+pymssql://scott:tiger@hostname:port/dbname")
 1. ```cd backend``` para direcionarmos o caminho para a pasta backend;
 1. ```python -m venv env``` para criar o ambiente
 1. ```env\Scripts\activate``` esse comaando serve para ativar os scripts no ambiente criado;
-1. ```(env) pip install -r requirements.txt``` 
+1. ```(env) pip install -r requirements.txt``` para baixarmos as bibliotecas certas que estão no arquivo ```requirements.txt```;
+1.  Endpoint para ser usado é o ```uvicorn main:app --host 127.0.0.1 --port:8002```;
+1. ```(env) python main.py``` para rodar o programa.
